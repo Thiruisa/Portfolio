@@ -221,7 +221,7 @@ nav {
     border-right: 4px solid rgba(255, 255, 255, 1);
 }
 
-@keyframes typing {
+/* @keyframes typing {
     75% {
         width: 0ch;
         color: rgba(249, 105, 14, 1);
@@ -240,7 +240,7 @@ nav {
     100% {
         border-right: 4px solid rgb(194, 194, 194);
     }
-}
+} */
 
 .main-message h3 {
     font-size: 4rem;
@@ -277,6 +277,34 @@ nav {
 }
 
 .btn:hover {
+    color: #fafafa;
+    background-color: rgba(189, 72, 0);
+}
+
+#topBtn {
+    margin: 0 9px;
+
+    display: inline-block;
+    margin-top: 2rem;
+    transition: background-color 650ms;
+    font-weight: 500;
+    letter-spacing: 2px; 
+    display: inline-block;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgba(3, 155, 155);
+    color: #fafafa;
+    cursor: pointer;
+    padding: 1rem 2.5rem;
+    border-radius: 2rem;
+}
+
+#topBtn:hover {
     color: #fafafa;
     background-color: rgba(189, 72, 0);
 }
